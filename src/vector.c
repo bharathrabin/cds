@@ -135,3 +135,8 @@ bool cds_vector_set(cds_vector *v, size_t index, const void *elem) {
     return true;
 }
 
+size_t cds_vector_elem_size(const cds_vector *v) {
+    assert(v != NULL);
+    return v->elem_size;
+}
+

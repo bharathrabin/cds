@@ -12,4 +12,5 @@ standard to implement some data structures. Kicking it off with really simple on
 | Data Structure | Status | Notes on testing | Notes on implementation |
 |---|---|---|---|
 | Dynamic Array | Implemented | Tested relatively well | Standard dynamic array with a len and a cap. Simplest possible implementation |
-| Singly Linked List | In-Progress | Testing in progress |Accepts void* payload, has a means to configure payload memory management |
+| Singly Linked List | Implemented | Tested relatively well |Accepts void* payload, has a means to configure payload memory management |
+| Stack | In-Progress | Tested relatively well | Built using vector under the hood |

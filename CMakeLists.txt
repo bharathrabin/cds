@@ -22,6 +22,7 @@ endif()
 add_library(cds
     src/vector.c
     src/list.c
+    src/stack.c
 )
 
 target_include_directories(cds
