@@ -28,6 +28,8 @@ void *cds_vector_get(const cds_vector *v, size_t index);
 
 bool cds_vector_set(cds_vector *v, size_t index, const void *elem);
 
+size_t cds_vector_elem_size(const cds_vector *v);
+
 #ifdef __cplusplus
 }
 #endif
