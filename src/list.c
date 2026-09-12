@@ -39,6 +39,7 @@ void cds_list_destroy(cds_list *list) {
             list->free_payload(itr->payload);
         }
         free(itr);
+        itr = next;          /* <-- add this: advance to the saved next */
     }
     free(list);
 }
