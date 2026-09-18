@@ -24,6 +24,7 @@ add_library(cds
     src/list.c
     src/stack.c
     src/queue.c
+    src/dlist.c
 )
 
 target_include_directories(cds
