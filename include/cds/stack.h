@@ -9,8 +9,6 @@
 extern "C" {
 #endif
 
-
-/* A stack of fixed-sized elements */
 typedef struct cds_stack cds_stack;
 
 cds_stack *cds_stack_create(size_t elem_size);
