@@ -6,10 +6,10 @@
 #include <string.h>
 
 struct cds_vector {
-    void *data; /* byte buffer of size cap * elem_size bytes*/
-    size_t elem_size; /* bytes per element, fixed at construction time */
-    size_t len; /* elements currently stored */
-    size_t cap; /* elements the buffer can hold before growing */
+    void *data; 
+    size_t elem_size; 
+    size_t len; 
+    size_t cap;
 };
 
 #define CDS_VECTOR_INITIAL_CAP 4
